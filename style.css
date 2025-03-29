@@ -5,3 +5,17 @@ color:brown;
 .highlight {
     background-color: yellow;
 }
+
+.int{
+    color:white;
+    background-color: #7fa6fb;
+    text-align: left;
+}
+
+.linea{
+    background-color: #dfe5f2;
+}
+
+.lineb{
+    background-color: #ffffff;
+}
