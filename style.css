@@ -1,7 +1,18 @@
-.first {
-color:brown;
+.back{
+    height: 50px;
+    background-color:#9cd6f4;
 
 }
+
+.logo{
+    float: left;
+    display:inline;
+    width: 50%;
+    height: 50%;
+    align-items: left;    
+}
+
+
 .highlight {
     background-color: yellow;
 }
