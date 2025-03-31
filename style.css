@@ -1,5 +1,8 @@
 body{
-    margin:0;
+    margin: left 3px;
+    margin: top 0;
+    margin: right 3px;
+    margin: bottom 0;
 }
 
 .back{
@@ -7,14 +10,41 @@ body{
     background-color:#9cd6f4;
     padding-top: 10px;
     padding-left: 15px;
-
+    margin-bottom: 30px;
 }
 
 .logo{
-    height: 50px;
-    
+    height: 50px; 
 }
 
+.title{
+    margin: 0;
+}
+
+.credit{
+    margin: 0;
+}
+
+.color{
+    color: #5aa7ff;
+    margin: 0;
+}
+
+.data{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 8pt;
+}
+
+.first{
+    font-size: 8pt;
+    margin-bottom: 0;
+}
+
+.second{
+    font-size: 8pt;
+    margin-top: 0;
+}
 
 .highlight {
     background-color: yellow;
@@ -43,5 +73,15 @@ body{
 }
 
 .footer{
-    backgro
+    background-color: #313a6b;
+    height: 75px;
+    margin-top: 20px;
+    padding-top: 15px;
+    
 } 
+
+.text{
+    text-align: center;
+    font-size: 10pt;
+    color: #ffffff;
+}
