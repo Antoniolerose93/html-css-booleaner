@@ -1,15 +1,18 @@
+body{
+    margin:0;
+}
+
 .back{
-    height: 50px;
+    height: 100px;
     background-color:#9cd6f4;
+    padding-top: 10px;
+    padding-left: 15px;
 
 }
 
 .logo{
-    float: left;
-    display:inline;
-    width: 50%;
-    height: 50%;
-    align-items: left;    
+    height: 50px;
+    
 }
 
 
@@ -30,3 +33,15 @@
 .lineb{
     background-color: #ffffff;
 }
+
+.col25{
+    width: 25%;
+}
+
+.col50{
+    width: 50%;
+}
+
+.footer{
+    backgro
+} 
