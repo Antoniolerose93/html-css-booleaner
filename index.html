@@ -8,60 +8,61 @@
 </head>
 <body>
     
-    <header class="back">
+    <header class="page-header">
         <img class="logo" src ="./img/logo.svg" alt="logo">
     </header>
     
-    <h1 class="title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-    <div>
-        <p class="credit">Scritto da 
-            <span class="color">The Booleaner</span>
+    <h1 class="page-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+    
+       <p class="article-author">Scritto da <a href="#">The Booleaner</a>
+       </p>
+       <p class="article-date">il 10.10.2020 
         </p>
-        <p class="data">il 10.10.2020 </p>
-    </div>
-    <!-- Inserisco la tabella immagini -->
-    <table>
-        <thead>
-            <tr>
-                <th><img src="./img/tim-1.jpg" alt="Tim Berners-Lee"></th>
-                <th> <img src="./img/tim-2.jpg" alt="Tim Berners-Lee"></th>
-            </tr>
-        </thead>
-    </table>
+    
+    <!-- Inserisco le immagini -->
+    <figure class="article-images">
+        <img src="./img/tim-1.jpg" alt="Tim Berners-Lee">
+        <img src="./img/tim-2.jpg" alt="Tim Berners-Lee">
     <!-- Inserisco i crediti delle immagini -->
-    <p class="first">1st Photo: John S. and Jmes L. Knight Foundation, by Scott Henrichsen</p>
-    <p class="second">2nd Photo: Wikimedia, by Paul Clarke</p>
+        <figcaption>
+            1st Photo: Lorem ipsum dolor sit amet consectetur adipiscing
+            <br>
+            2nd Photo: Lorem ipsum dolor sit amet.
+        </figcaption>
+   </figure>
 
+   
+   
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
     Voluptate quia repellendus aliquid nihil odit, dolorem atque doloremque
      <span class="highlight">minus natus vel voluptates dolor tempore</span> pariatur voluptas nam nostrum accusamus voluptatibus cumque.
     </p>
     <!-- Inserisco la lista -->
-    <ul>
+    <ul class="article-list">
         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
         <li>Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur</li>
         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
     </ul>
-    <table>
+    <table class="table">
         <thead>
-            <tr class="int">
-            <th class="col25">Lorem ipsum dolor</th>
-            <th class="col25">Lorem ipsum dolor</th>
-            <th class="col50">Lorem ipsum dolor</th>
+            <tr class="tr-head">
+            <th class="W25">Lorem ipsum dolor</th>
+            <th class="W25">Lorem ipsum dolor</th>
+            <th class="W50">Lorem ipsum dolor</th>
             </tr>
         </thead>
         <tbody>
-            <tr class="linea">
+            <tr class="tr-body-odd">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aut pariatur! Est qui odio dolore dolorum vero necessitatibus explicabo, ab accusantium id veritatis. Eligendi quos corporis labore eveniet, hic error?</td>
             </tr>
-            <tr class="lineb">
+            <tr class="tr-body-odd2">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aut pariatur! Est qui odio dolore dolorum vero necessitatibus explicabo, ab accusantium id veritatis. Eligendi quos corporis labore eveniet, hic error?</td>
             </tr>
-            <tr class="linea">
+            <tr class="tr-body-odd">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aut pariatur! Est qui odio dolore dolorum vero necessitatibus explicabo, ab accusantium id veritatis. Eligendi quos corporis labore eveniet, hic error?</td>
@@ -69,8 +70,9 @@
         </tbody>
         
     </table>
+    <!-- pie di pagina -->
     <footer class="footer">
-        <p class="text">Copyright The Booleaner - Tutti i diritti riservati</p>
+       &copy; Copyright The Booleaner - Tutti i diritti riservati
     </footer>
     </body>
 </html>

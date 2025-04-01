@@ -1,49 +1,35 @@
 body{
-    margin: left 3px;
-    margin: top 0;
-    margin: right 3px;
-    margin: bottom 0;
+    margin: 0;
 }
 
-.back{
+/* HEADER */
+
+.page-header{
     height: 100px;
     background-color:#9cd6f4;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-bottom: 30px;
+    padding: 40px 10px;
 }
 
 .logo{
     height: 50px; 
 }
 
-.title{
+.page-title{
     margin: 0;
 }
 
-.credit{
+.article-author,
+.article-date{
+    color: #666666;
     margin: 0;
 }
 
-.color{
-    color: #5aa7ff;
-    margin: 0;
+.article-date{
+    font-size: 12px;
 }
 
-.data{
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 8pt;
-}
-
-.first{
-    font-size: 8pt;
-    margin-bottom: 0;
-}
-
-.second{
-    font-size: 8pt;
-    margin-top: 0;
+.article-images{
+    margin: 20px 0;
 }
 
 .highlight {
