@@ -15,7 +15,8 @@ body{
 }
 
 .page-title{
-    margin: 0;
+    font-size: 36px;
+    margin-bottom: 0;
 }
 
 .article-author,
@@ -32,29 +33,29 @@ body{
     margin: 20px 0;
 }
 
-.highlight {
-    background-color: yellow;
+.table{
+    width: 100%;
 }
 
-.int{
+.tr-head{
     color:white;
     background-color: #7fa6fb;
     text-align: left;
 }
 
-.linea{
+.tr-body-odd{
     background-color: #dfe5f2;
 }
 
-.lineb{
+.tr-body-odd2{
     background-color: #ffffff;
 }
 
-.col25{
+.W25{
     width: 25%;
 }
 
-.col50{
+.W50{
     width: 50%;
 }
 
@@ -63,11 +64,6 @@ body{
     height: 75px;
     margin-top: 20px;
     padding-top: 15px;
-    
-} 
-
-.text{
-    text-align: center;
-    font-size: 10pt;
     color: #ffffff;
-}
+    text-align: center;
+} 
